@@ -1,0 +1,8 @@
+-kolorystyka strony
+-rozwijane kategorie -> podstrony
+-animacje
+-kursor
+-dzwieki
+-film
+-skroty na gorze strony
+-ikona w head skalowalna (?)
