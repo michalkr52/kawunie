@@ -1,10 +1,13 @@
-body{
-  width: 100%;
-  font-family: "Arial", sans-serif;
+*{
   box-sizing: border-box;
 }
 
-#main-kont{
+body{
+  width: 100%;
+  font-family: "Arial", sans-serif;
+}
+
+.kont{
   width: 1000px;
   margin: 0 auto;
 }
@@ -49,7 +52,7 @@ header h1{
 #main-film{
   width: 800px;
   height: 450px;
-  background-color: lightgray;
+  background-color: #ddd;
   margin: 0 auto;
   text-align: center;
   line-height: 30;
@@ -62,7 +65,7 @@ nav{
 .nav-przycisk{
   height: 120px;
   width: 80%;
-  background-color: lightgray;
+  background-color: #ddd;
   margin: 60px auto;
 }
 
@@ -71,5 +74,25 @@ nav{
 }
 
 .nav-przycisk h2{
-  line-height: 2;
+  display: inline-block;
+  line-height: 2.5;
+  vertical-align: top;
+  margin-left: 25px;
+}
+
+footer{
+  width: 100%;
+  background-color: #bbb;
+}
+
+footer .kont{
+  height: 200px;
+}
+
+footer .kont div{
+  width: 50%;
+  float: left;
+  height: 100%;
+  background-color: #999;
+  padding: 20px;
 }
