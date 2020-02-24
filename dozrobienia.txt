@@ -1,4 +1,4 @@
--kolorystyka strony
+Vkolorystyka strony      
 -rozwijane kategorie -> podstrony
 -animacje
 -kursor
