@@ -1,7 +1,8 @@
 /*
     Paleta kolorów:
     #141210 - lukrecja
-    #9b2b41 - rubinowy
+    #9b2b31 - rubinowy
+    #a32323 - czerowny w logu
     #f2f4f3 - bialawy
     #d8c1ab - jasna kawa
     #5e4c3f - kawa
@@ -29,14 +30,13 @@ header{
   height: 300px;
   margin-bottom: 50px;
   background-color: #d8c1ab;
-  border-bottom: 12px #9b2b41 solid;
-  border-top: 12px #9b2b41 solid;
+  border-bottom: 12px #9b2b31 solid;
+  border-top: 12px #9b2b31 solid;
 }
 
 header img{
   display: block;
   width: 250px;
-  margin-top: 10px;
   float: left;
 }
 
@@ -62,10 +62,6 @@ header h1{
   float: left;
 }
 
-#zawartosc{
-  display: block;
-}
-
 #main-film{
   width: 800px;
   height: 450px;
@@ -73,7 +69,7 @@ header h1{
   margin: 0 auto;
   text-align: center;
   line-height: 450px;
-  border: #9b2b41 solid 5px;
+  border: #9b2b31 solid 5px;
   border-radius: 15px;
 }
 
@@ -86,7 +82,7 @@ nav{
   width: 80%;
   background-color: #e2d1c1;
   margin: 60px auto;
-  border: #9b2b41 solid 5px;
+  border: #9b2b31 solid 5px;
   border-radius: 15px;
 }
 
