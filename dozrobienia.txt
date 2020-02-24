@@ -2,7 +2,10 @@ Vkolorystyka strony
 -rozwijane kategorie -> podstrony
 -animacje
 -kursor
--dzwieki
+  -cala strona
+  -na przyciskach
+-dzwieki 
+  -hover na .nav-przyciski
 -film
 -skroty na gorze strony
 -ikona w head skalowalna (?)

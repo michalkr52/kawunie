@@ -84,6 +84,13 @@ nav{
   margin: 60px auto;
   border: #9b2b31 solid 5px;
   border-radius: 15px;
+  transition-duration: 0.3s;
+  user-select: none;
+}
+
+.nav-przycisk:hover{
+  background-color: #bfa38d;
+  transition-duration: 0.3s;
 }
 
 .nav-przycisk img{
