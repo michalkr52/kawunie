@@ -9,6 +9,15 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="czcionka/czcionka.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script> //jQuery
+      $(document).ready(function(){
+        $(".nav-przycisk").click(function(){
+          $(this).toggleClass("nav-klikniety");
+          $(this).children(".nav-zawartosc").fadeToggle(200);
+        });
+      });
+    </script>
     <!--
     Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com> & Marck Fogel, with Reserved Font Name "Marck Script". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
     -->
@@ -37,18 +46,22 @@
           <div class="nav-przycisk">
             <img src="grafika/lorem.png">
             <h2>Kawa ziarnista</h2>
+            <div class="nav-zawartosc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor odio id urna vehicula ultricies.</div>
           </div>
           <div class="nav-przycisk">
             <img src="grafika/lorem.png">
             <h2>Kawa mielona</h2>
+            <div class="nav-zawartosc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor odio id urna vehicula ultricies.</div>
           </div>
           <div class="nav-przycisk">
             <img src="grafika/lorem.png">
             <h2>Kawa rozpuszczalna</h2>
+            <div class="nav-zawartosc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor odio id urna vehicula ultricies.</div>
           </div>
           <div class="nav-przycisk">
             <img src="grafika/lorem.png">
             <h2>Kawa w kapsułkach</h2>
+            <div class="nav-zawartosc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor odio id urna vehicula ultricies.</div>
           </div>
         </nav>
     </div>
