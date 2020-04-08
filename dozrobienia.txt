@@ -31,6 +31,9 @@ mielona:
 -arabika
 -arabika excelso
 -robusta
+
+podstrona mielona - animacja 
+ziarno -> młynek -> zmielona
 =======================================
 zdjecia:
 -kursory
