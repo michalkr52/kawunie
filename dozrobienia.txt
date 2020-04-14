@@ -4,9 +4,6 @@
   -dalsze perspektywy rozwoju
 -animacje
   -css lub jquery
--kursor
-  -cala strona
-  -na przyciskach
 -dzwieki 
   -hover na .nav-przyciski
   -rowziniecie menu
