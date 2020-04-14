@@ -1,11 +1,42 @@
-Vkolorystyka strony      
 -rozwijane kategorie -> podstrony
+-zawartosc do strony (tekst + nasze zdjecia)
+  -o nas 
+  -dalsze perspektywy rozwoju
 -animacje
+  -css lub jquery
 -kursor
   -cala strona
   -na przyciskach
 -dzwieki 
   -hover na .nav-przyciski
+  -rowziniecie menu
 -film
--skroty na gorze strony
+-fixed header
+-linki do social media
+  -twitter V
+  -discord 
+  -github  V
+  -youtube 
 -ikona w head skalowalna (?)
+=======================================
+podzial na kawy i zakup:
+po 100g
+
+ziarnista:
+-arabika
+-arabika excelso
+-robusta
+
+mielona:
+-arabika
+-arabika excelso
+-robusta
+
+podstrona mielona - animacja 
+ziarno -> młynek -> zmielona
+=======================================
+zdjecia:
+-kursory
+-podstrony - przyciski
+-podstrony - grafika
+-tlo (?)
