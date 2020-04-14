@@ -13,9 +13,19 @@
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script> //jQuery
       $(document).ready(function(){
-        $(".nav-przycisk").click(function(){
-          $(this).toggleClass("nav-klikniety");
-          $(this).children(".nav-zawartosc").fadeToggle(200);
+        $(".nav-kategoria").click(function(){
+          var element = $(this);
+          if(element.hasClass("nav-klikniety")){
+            element.children(".nav-zawartosc").fadeToggle(200);
+            setTimeout(function(){
+              element.toggleClass("nav-klikniety");
+            }, 200);
+          }else{
+            setTimeout(function(){
+              element.children(".nav-zawartosc").fadeToggle(200);
+            }, 200);
+            element.toggleClass("nav-klikniety");
+          }
         });
       });
     </script>
@@ -44,18 +54,41 @@
     <div class="kont">
         <div id="main-film"><span style="font-size: 40px;">FILM</span></div>
         <nav>
-          <div class="nav-przycisk">
-            <img src="grafika/lorem.png">
+          <div class="nav-kategoria">
             <h2>Kawa ziarnista</h2>
-            <div class="nav-zawartosc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor odio id urna vehicula ultricies.</div>
+            <div class="nav-zawartosc">
+              <div class="nav-przycisk">
+                <div onmouseover="this.children[0].setAttribute('src', 'grafika/arabica_pojedyncze240px.png')" onmouseout="this.children[0].setAttribute('src', 'grafika/arabica240px.png')"><img src="grafika/arabica240px.png" alt="Arabica - ziarnista"></div>
+                <p>Arabica</p>
+              </div>
+              <div class="nav-przycisk">
+                <div onmouseover="this.children[0].setAttribute('src', 'grafika/arabica-excelso_pojedyncze240px.png')" onmouseout="this.children[0].setAttribute('src', 'grafika/arabica-excelso240px.png')"><img src="grafika/arabica-excelso240px.png" alt="Arabica Excelso - ziarnista"></div>
+                <p>Arabica Excelso</p>
+              </div>
+              <div class="nav-przycisk">
+                <div onmouseover="this.children[0].setAttribute('src', 'grafika/robusta_pojedyncze240px.png')" onmouseout="this.children[0].setAttribute('src', 'grafika/robusta240px.png')"><img src="grafika/robusta240px.png" alt="Robusta - ziarnista"></div>
+                <p>Robusta</p>
+              </div>
+            </div>
           </div>
-          <div class="nav-przycisk">
-            <img src="grafika/lorem.png">
+          <div class="nav-kategoria">
             <h2>Kawa mielona</h2>
-            <div class="nav-zawartosc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor odio id urna vehicula ultricies.</div>
+            <div class="nav-zawartosc">
+              <div class="nav-przycisk">
+                <div onmouseover="this.children[0].setAttribute('src', 'grafika/arabica_mielona3240px.png')" onmouseout="this.children[0].setAttribute('src', 'grafika/arabica_mielona1240px.png')"><img src="grafika/arabica_mielona1240px.png" alt="Arabica - mielona"></div>
+                <p>Arabica</p>
+              </div>
+              <div class="nav-przycisk">
+                <div onmouseover="this.children[0].setAttribute('src', 'grafika/arabica-excelso_mielona3240px.png')" onmouseout="this.children[0].setAttribute('src', 'grafika/arabica-excelso_mielona1240px.png')"><img src="grafika/arabica-excelso_mielona1240px.png" alt="Arabica Excelso - mielona"></div>
+                <p>Arabica Excelso</p>
+              </div>
+              <div class="nav-przycisk">
+                <div onmouseover="this.children[0].setAttribute('src', 'grafika/robusta_mielona3240px.png')" onmouseout="this.children[0].setAttribute('src', 'grafika/robusta_mielona1240px.png')"><img src="grafika/robusta_mielona1240px.png" alt="Robusta - ziarnista"></div>
+                <p>Robusta</p>
+              </div>
+            </div>
           </div>
-          <div class="nav-przycisk">
-            <img src="grafika/lorem.png">
+          <div class="nav-kategoria">
             <h2>Kawa w kapsułkach</h2>
             <div class="nav-zawartosc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor odio id urna vehicula ultricies.</div>
           </div>
