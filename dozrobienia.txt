@@ -36,7 +36,6 @@ podstrona mielona - animacja
 ziarno -> młynek -> zmielona
 =======================================
 zdjecia:
--kursory
--podstrony - przyciski
--podstrony - grafika
--tlo (?)
+zdjecia kawy zrobionej + jakies tam reczy przy niej
+zdjecia kapsulek + opakowan
+zdjecia kawy z automatu
