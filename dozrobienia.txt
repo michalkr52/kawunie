@@ -1,7 +1,4 @@
 -rozwijane kategorie -> podstrony
--zawartosc do strony (tekst + nasze zdjecia)
-  -o nas 
-  -o kawie
 -animacje
   -css lub jquery
 -dzwieki 
@@ -20,5 +17,3 @@ ziarno -> młynek -> zmielona
 =======================================
 zdjecia:
 zdjecia kawy zrobionej + jakies tam reczy przy niej
-zdjecia kapsulek + opakowan
-zdjecia kawy z automatu
