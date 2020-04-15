@@ -8,6 +8,10 @@
     #5e4c3f - kawa
 */
 
+b{
+  font-weight: bold;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -203,6 +207,7 @@ footer .kont div{
   float: left;
   height: 100%;
   padding: 20px;
+  line-height: 18pt !important;
 }
 
 footer .kont div:nth-of-type(1){
