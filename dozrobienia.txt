@@ -1,7 +1,7 @@
 -rozwijane kategorie -> podstrony
 -zawartosc do strony (tekst + nasze zdjecia)
   -o nas 
-  -dalsze perspektywy rozwoju
+  -o kawie
 -animacje
   -css lub jquery
 -dzwieki 
