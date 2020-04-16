@@ -113,24 +113,24 @@ nav{
   margin-bottom: 75px;
 }
 
-section{
+.main-opis{
   margin-top: 60px;
   height: 450px;
   color: #f2f4f3;
   vertical-align: middle;
 }
 
-section:nth-of-type(1){
+.main-opis:nth-of-type(1){
   background-image: url(../grafika/baner1.jpg);
   background-position: 20% 50%;
 }
 
-section:nth-of-type(2){
+.main-opis:nth-of-type(2){
   background-image: url(../grafika/baner2.jpg);
   background-position: 15% 30%;
 }
 
-section > div{
+.main-opis > div{
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -138,23 +138,23 @@ section > div{
   justify-content: center;
 }
 
-section h2{
+.main-opis h2{
   margin-bottom: 25px;
   font-size: 48pt;
   color: #f2f4f3;
 }
 
-section p{
+.main-opis p{
   line-height: 16pt;
 }
 
-section ul{
+.main-opis ul{
   margin-top: 15px;
   list-style: circle;
   line-height: 22pt;
 }
 
-section li{
+.main-opis li{
   margin-left: 30px;
 }
 
@@ -188,6 +188,52 @@ section li{
 
 .nav-kategoria:nth-of-type(3).nav-klikniety{
   height: 680px !important;
+}
+
+.main-kat{
+  margin: 80px 0;
+}
+
+.main-kat > .kont > div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+  border: #9b2b31 solid 5px;
+  border-radius: 15px;
+}
+
+.main-kat h2{
+  flex-grow: 3;
+  font-size: 48pt;
+  margin-left: 30px;
+  text-decoration: underline;
+  text-decoration-color: #9b2b31;
+}
+
+.main-kat-rozwin{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 20pt;
+  color: #9b2b31;
+  text-align: center;
+  transition-duration: 0.2s;
+  user-select: none;
+  height: 100%;
+  border-left: #9b2b31 solid 5px;
+}
+
+.main-kat-rozwin > div{
+  align-self: center;
+}
+
+.main-kat-rozwin:hover,
+.main-kat-klikniety{
+  background-color: #9b2b31;
+  color: #f2f4f3;
 }
 
 footer{

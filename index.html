@@ -54,6 +54,22 @@
             element.toggleClass("nav-klikniety");
           }
         });
+        
+        $(".main-kat-rozwin").click(function(){
+          var element = $(this);
+          pusc_dzwiek(rozwin_audio);
+          if(element.hasClass("main-kat-klikniety")){
+            //element.children(".nav-zawartosc").fadeToggle(200);
+            setTimeout(function(){
+              element.toggleClass("main-kat-klikniety");
+            }, 200);
+          }else{
+            setTimeout(function(){
+              //element.children(".nav-zawartosc").fadeToggle(200);
+            }, 200);
+            element.toggleClass("main-kat-klikniety");
+          }
+        });
       });
     </script>
   </head>
@@ -68,7 +84,7 @@
     <div class="kont">
         <div id="main-film"><span style="font-size: 40px;">FILM</span></div>
     </div>
-    <section>
+    <section class="main-opis">
       <div class="kont">
         <h2>O kawie</h2>
         <p>Kawa to jedna z najpopularniejszych używek jak i napojów na świecie. Nazwa ta kawy pochodzi od arabskiego słowa <i>kahwa</i>. Większość spożywanej kawy pochodzi z odmian Robusta lub Arabica. Kawa jest również bardzo dobrym źródłem kofeiny - filiżanka czarnej kawy zawiera aż 70-140 mg.<br><br>Zalety kawy:</p>
@@ -140,20 +156,50 @@
         </div>
       </nav>
     </div>
-    <section>
+    <section class="main-opis">
       <div class="kont">
         <h2>O nas</h2>
         <p>Ród Krauskich powstał kilka lat po chrzcie Polski. Wspólną cechą każdego pokolenia tego rodu było zamiłowanie do kawy - coś, co my, Michał i Kacper Krauscy, pragniemy kultywować na całym świecie. Przygotowujemy najlepszą kawę na świecie, ściśle podążając za procedurą przygotowaną przez naszych legendarnych przodków. Tak przyrządzony napój posiada ogromne wartości lecznicze, pozwalające nawet na renegerację straconych kończyn, leczenie nowotworów, reanimację, odmłodzenie, wzrost ilorazu inteligencji, natychmiastowy czas reakcji, itd.</p>
       </div>
     </section>
+    <section class="main-kat">
+      <div class="kont">
+        <div>
+          <h2>Kawa ziarnista</h2>
+          <div class="main-kat-rozwin">
+            <div>Rozwiń</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-kat">
+      <div class="kont">
+        <div>
+          <h2>Kawa mielona</h2>
+          <div class="main-kat-rozwin">
+            <div>Rozwiń</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-kat">
+      <div class="kont">
+        <div>
+          <h2>Kawa w kapsulkach</h2>
+          <div class="main-kat-rozwin">
+            <div>Rozwiń</div>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer>
       <div class="kont">
         <div><p>Przyciski do mediów społecznościowych</p>
-            <a href="https://www.youtube.com/?gl=PL">
+            <a href="https://www.youtube.com/?gl=PL" target="_blank">
           <img src="grafika/youtube.svg"></a>
             <a href="https://twitter.com/KawunieK" target="_blank">
           <img src="grafika/twitter.svg"></a>
-            <a href="https://discordapp.com/">
+            <a href="https://discordapp.com/" target="_blank">
           <img src="grafika/discord.svg"></a>
             <a href="https://github.com/michalkr52/michalkr52.github.io" target="_blank">
           <img src="grafika/github.svg"></a>
