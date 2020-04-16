@@ -30,6 +30,14 @@
         pusc_dzwiek(hover_audio);
       }
       
+      function doGory(animacja){
+        window.scrollTo({top: 0, behavior: 'smooth'});
+        animacja.classList.add("do-gory-animacja");
+        setTimeout(function(){
+          animacja.classList.remove("do-gory-animacja");
+        }, 1000);
+      }
+      
       $(document).ready(function(){
         $(".nav-kategoria").click(function(){
           var element = $(this);
@@ -50,6 +58,7 @@
     </script>
   </head>
   <body>
+    <img class="do-gory" src="grafika/Strzalka_inkscape.svg" onclick="doGory(this);">
     <header>
       <div class="kont">
         <img src="grafika/logo.svg">
@@ -139,9 +148,7 @@
     </section>
     <footer>
       <div class="kont">
-        <div>Przyciski do mediów społecznościowych
-          <img src="grafika/Strzalka_inkscape.svg">
-        </div>
+        <div>Przyciski do mediów społecznościowych</div>
         <div>Strona zrobiona przez:<br><b>Kacpra</b><br>oraz<br><b>Michała</b><br>ze szkoły PZS2 w Wejherowie, klasa 3dT<br><br>02-04.2020</div>
       </div>
     </footer>

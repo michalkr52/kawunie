@@ -164,7 +164,7 @@ section li{
 }
 
 .nav-przycisk div{
-  height: 160px;
+  height: 150px;
 }
 
 .nav-przycisk img{
@@ -217,4 +217,26 @@ footer .kont div:nth-of-type(1){
 footer .kont div:nth-of-type(2){
   text-align: justify;
   line-height: 120%;
+}
+
+.do-gory{
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  transition-duration: 0.3s;
+}
+
+.do-gory:hover{
+  filter: brightness(0.8);
+}
+
+.do-gory-animacja{
+  animation: obrot360 0.5s cubic-bezier(.45,.05,.55,.95) 0s 1 forwards;
+}
+
+/*KEYFRAMES*/
+
+@keyframes obrot360{
+  0%  {rotate: 0deg;}
+  100%  {rotate: 360deg;}
 }
