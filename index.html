@@ -11,16 +11,18 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="czcionka/czcionka.css">
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
-    <!-- skrypt pobiera zdjęcia w kategoriach przy załadowaniu, które normalnie zaczęły by się pobierać przy onmouseover -->
+    <!-- skrypt pobiera zdjęcia w kategoriach przy załadowaniu, które normalnie zaczęły by się pobierać przy onmouseenter -->
     <script type="text/javascript" src="ladowanie-zdj.js"></script> 
     <script>
       var rozwin_audio = new Audio("rozwin.mp3");
       var hover_audio = new Audio("hover.mp3");
       
       function pusc_dzwiek(dzwiek){
-        if(video.currentTime > 0) dzwiek.pause();
+        if(dzwiek.currentTime > 0) dzwiek.pause();
         dzwiek.currentTime = 0;
-        dzwiek.play();
+        setTimeout(function(){
+          dzwiek.play();
+        }, 10);
       }
       
       function hover_przycisk(element, zdjecie){
@@ -76,15 +78,15 @@
           <h2>Kawa ziarnista</h2>
           <div class="nav-zawartosc">
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'arabica_pojedyncze240px.png');" onmouseout="hover_przycisk(this, 'arabica240px.png');"><img src="grafika/arabica240px.png" alt="Arabica - ziarnista"></div>
+              <div onmouseenter="hover_przycisk(this, 'arabica_pojedyncze240px.png');" onmouseleave="hover_przycisk(this, 'arabica240px.png');"><img src="grafika/arabica240px.png" alt="Arabica - ziarnista"></div>
              <p>Arabica</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'arabica-excelso_pojedyncze240px.png');" onmouseout="hover_przycisk(this, 'arabica-excelso240px.png');"><img src="grafika/arabica-excelso240px.png" alt="Arabica Excelso - ziarnista"></div>
+              <div onmouseenter="hover_przycisk(this, 'arabica-excelso_pojedyncze240px.png');" onmouseleave="hover_przycisk(this, 'arabica-excelso240px.png');"><img src="grafika/arabica-excelso240px.png" alt="Arabica Excelso - ziarnista"></div>
               <p>Arabica Excelso</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'robusta_pojedyncze240px.png');" onmouseout="hover_przycisk(this, 'robusta240px.png');"><img src="grafika/robusta240px.png" alt="Robusta - ziarnista"></div>
+              <div onmouseenter="hover_przycisk(this, 'robusta_pojedyncze240px.png');" onmouseleave="hover_przycisk(this, 'robusta240px.png');"><img src="grafika/robusta240px.png" alt="Robusta - ziarnista"></div>
               <p>Robusta</p>
             </div>
           </div>
@@ -93,15 +95,15 @@
           <h2>Kawa mielona</h2>
           <div class="nav-zawartosc">
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'arabica_mielona3240px.png');" onmouseout="hover_przycisk(this, 'arabica_mielona1240px.png');"><img src="grafika/arabica_mielona1240px.png" alt="Arabica - mielona"></div>
+              <div onmouseenter="hover_przycisk(this, 'arabica_mielona3240px.png');" onmouseleave="hover_przycisk(this, 'arabica_mielona1240px.png');"><img src="grafika/arabica_mielona1240px.png" alt="Arabica - mielona"></div>
               <p>Arabica</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'arabica-excelso_mielona3240px.png');" onmouseout="hover_przycisk(this, 'arabica-excelso_mielona1240px.png');"><img src="grafika/arabica-excelso_mielona1240px.png" alt="Arabica Excelso - mielona"></div>
+              <div onmouseenter="hover_przycisk(this, 'arabica-excelso_mielona3240px.png');" onmouseleave="hover_przycisk(this, 'arabica-excelso_mielona1240px.png');"><img src="grafika/arabica-excelso_mielona1240px.png" alt="Arabica Excelso - mielona"></div>
               <p>Arabica Excelso</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'robusta_mielona3240px.png');" onmouseout="hover_przycisk(this, 'robusta_mielona1240px.png');"><img src="grafika/robusta_mielona1240px.png" alt="Robusta - ziarnista"></div>
+              <div onmouseenter="hover_przycisk(this, 'robusta_mielona3240px.png');" onmouseleave="hover_przycisk(this, 'robusta_mielona1240px.png');"><img src="grafika/robusta_mielona1240px.png" alt="Robusta - ziarnista"></div>
               <p>Robusta</p>
             </div>
           </div>
@@ -110,19 +112,19 @@
           <h2>Kawa w kapsułkach</h2>
           <div class="nav-zawartosc">
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'flat-white_filiz240px.png');" onmouseout="hover_przycisk(this, 'flat-white240px.png');"><img src="grafika/flat-white240px.png" alt="Flat White"></div>
+              <div onmouseenter="hover_przycisk(this, 'flat-white_filiz240px.png');" onmouseleave="hover_przycisk(this, 'flat-white240px.png');"><img src="grafika/flat-white240px.png" alt="Flat White"></div>
               <p>Flat White</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'cortado_filiz240px.png');" onmouseout="hover_przycisk(this, 'cortado240px.png');"><img src="grafika/cortado240px.png" alt="Cortado"></div>
+              <div onmouseenter="hover_przycisk(this, 'cortado_filiz240px.png');" onmouseleave="hover_przycisk(this, 'cortado240px.png');"><img src="grafika/cortado240px.png" alt="Cortado"></div>
               <p>Cortado</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'capuccino_filiz240px.png');" onmouseout="hover_przycisk(this, 'capuccino240px.png');"><img src="grafika/capuccino240px.png" alt="Capuccino"></div>
+              <div onmouseenter="hover_przycisk(this, 'capuccino_filiz240px.png');" onmouseleave="hover_przycisk(this, 'capuccino240px.png');"><img src="grafika/capuccino240px.png" alt="Capuccino"></div>
               <p>Capuccino</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseover="hover_przycisk(this, 'latte-macchiato_filiz240px.png');" onmouseout="hover_przycisk(this, 'latte-macchiato240px.png');"><img src="grafika/latte-macchiato240px.png" alt="Latte Macchiato"></div>
+              <div onmouseenter="hover_przycisk(this, 'latte-macchiato_filiz240px.png');" onmouseleave="hover_przycisk(this, 'latte-macchiato240px.png');"><img src="grafika/latte-macchiato240px.png" alt="Latte Macchiato"></div>
               <p>Latte Macchiato</p>
             </div>
           </div>
