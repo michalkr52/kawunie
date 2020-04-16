@@ -1,9 +1,12 @@
+Vkolorystyka strony      
 -rozwijane kategorie -> podstrony
 -animacje
   -css lub jquery
+-kursor
+  -cala strona
+  -na przyciskach
 -dzwieki 
-  -hover na .nav-przyciski - pstryk czy cos
-  -rowziniecie menu - nalanie kawy?
+  -hover na .nav-przyciski
 -film
 -linki do social media
   -twitter V
@@ -11,9 +14,3 @@
   -github  V
   -youtube 
 -ikona w head skalowalna (?)
-
-podstrona mielona - animacja 
-ziarno -> młynek -> zmielona
-=======================================
-zdjecia:
-zdjecia kawy zrobionej + jakies tam reczy przy niej
