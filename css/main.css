@@ -211,6 +211,7 @@ nav{
 
 .main-kat h2{
   flex-grow: 3;
+  flex-basis: 400px;
   font-size: 48pt;
   margin-left: 30px;
   text-decoration: underline;
