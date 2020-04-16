@@ -57,17 +57,20 @@
         
         $(".main-kat-rozwin").click(function(){
           var element = $(this);
+          var zawartosc = element.parent().parent().children(".main-kat-zawartosc");
           pusc_dzwiek(rozwin_audio);
-          if(element.hasClass("main-kat-klikniety")){
-            //element.children(".nav-zawartosc").fadeToggle(200);
+          if(zawartosc.hasClass("main-kat-klikniety")){
+            zawartosc.fadeToggle(200);
             setTimeout(function(){
-              element.toggleClass("main-kat-klikniety");
+              zawartosc.toggleClass("main-kat-klikniety");
+              element.toggleClass("main-kat-rozwin-klikniety");
             }, 200);
           }else{
             setTimeout(function(){
-              //element.children(".nav-zawartosc").fadeToggle(200);
+              zawartosc.fadeToggle(200);
             }, 200);
-            element.toggleClass("main-kat-klikniety");
+            zawartosc.toggleClass("main-kat-klikniety");
+            element.toggleClass("main-kat-rozwin-klikniety");
           }
         });
       });
@@ -164,31 +167,40 @@
     </section>
     <section class="main-kat">
       <div class="kont">
-        <div>
+        <div class="main-kat-naglowek">
           <h2>Kawa ziarnista</h2>
           <div class="main-kat-rozwin">
             <div>Rozwiń</div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="main-kat">
-      <div class="kont">
-        <div>
-          <h2>Kawa mielona</h2>
-          <div class="main-kat-rozwin">
-            <div>Rozwiń</div>
-          </div>
+        <div class="main-kat-zawartosc">
+          
         </div>
       </div>
     </section>
     <section class="main-kat">
       <div class="kont">
-        <div>
+        <div class="main-kat-naglowek">
+          <h2>Kawa mielona</h2>
+          <div class="main-kat-rozwin">
+            <div>Rozwiń</div>
+          </div>
+        </div>
+        <div class="main-kat-zawartosc">
+          <div class="main-kat-karta"></div>
+        </div>
+      </div>
+    </section>
+    <section class="main-kat">
+      <div class="kont">
+        <div class="main-kat-naglowek">
           <h2>Kawa w kapsulkach</h2>
           <div class="main-kat-rozwin">
             <div>Rozwiń</div>
           </div>
+        </div>
+        <div class="main-kat-zawartosc">
+          
         </div>
       </div>
     </section>

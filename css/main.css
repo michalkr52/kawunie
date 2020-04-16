@@ -198,7 +198,7 @@ nav{
   margin: 80px 0;
 }
 
-.main-kat > .kont > div{
+.main-kat-naglowek{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -231,12 +231,22 @@ nav{
   border-left: #9b2b31 solid 5px;
 }
 
+.main-kat-zawartosc{
+  display: none;
+  margin-top: -5px;
+  border: #9b2b31 solid 5px;
+  border-radius: 15px;
+}
+
+.main-kat-klikniety{
+}
+
 .main-kat-rozwin > div{
   align-self: center;
 }
 
 .main-kat-rozwin:hover,
-.main-kat-klikniety{
+.main-kat-rozwin-klikniety{
   background-color: #9b2b31;
   color: #f2f4f3;
 }
