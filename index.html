@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kawunie Krauskich</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Michał Krause, Kacper Bychowski 3dT">
+    <meta name="description" content="Strona o wszelakich rodzajach kawy oraz ich przyrządzaniu.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="grafika/logo.svg">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="czcionka/czcionka.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <!-- skrypt pobiera zdjęcia w kategoriach przy załadowaniu, które normalnie zaczęły by się pobierać przy onmouseover -->
+    <script type="text/javascript" src="ladowanie-zdj.js"></script> 
+    <script>
+      var rozwin_audio = new Audio("rozwin.mp3");
+      var hover_audio = new Audio("hover.mp3");
+      
+      function pusc_dzwiek(dzwiek){
+        if(!dzwiek.paused) dzwiek.pause();
+        dzwiek.currentTime = 0;
+        dzwiek.play();
+      }
+      
+      function hover_przycisk(element, zdjecie){
+        element.children[0].setAttribute("src", "grafika/" + zdjecie);
+        pusc_dzwiek(hover_audio);
+      }
+      
+      $(document).ready(function(){
+        $(".nav-kategoria").click(function(){
+          var element = $(this);
+          pusc_dzwiek(rozwin_audio);
+          if(element.hasClass("nav-klikniety")){
+            element.children(".nav-zawartosc").fadeToggle(200);
+            setTimeout(function(){
+              element.toggleClass("nav-klikniety");
+            }, 200);
+          }else{
+            setTimeout(function(){
+              element.children(".nav-zawartosc").fadeToggle(200);
+            }, 200);
+            element.toggleClass("nav-klikniety");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="kont">
+        <img src="grafika/logo.svg">
+        <h1>Kawunie Krauskich</h1>
+      </div>
+    </header>
+    <div class="kont">
+        <div id="main-film"><span style="font-size: 40px;">FILM</span></div>
+    </div>
+    <section>
+      <div class="kont">
+        <h2>O kawie</h2>
+        <p>Kawa to jedna z najpopularniejszych używek jak i napojów na świecie. Nazwa ta kawy pochodzi od arabskiego słowa <i>kahwa</i>. Większość spożywanej kawy pochodzi z odmian Robusta lub Arabica. Kawa jest również bardzo dobrym źródłem kofeiny - filiżanka czarnej kawy zawiera aż 70-140 mg.<br><br>Zalety kawy:</p>
+        <ul>
+          <li>zawiera antyoksydanty</li>
+          <li>zmniejsza ryzyko niektórych chorób</li>
+          <li>poprawia pamięć, nastrój i koncentrację</li>
+          <li>przyspiesza metabolizm</li>
+          <li>chwilowo pobudza</li>
+        </ul>
+      </div>
+    </section>
+    <div class="kont">
+      <nav>
+        <div class="nav-kategoria">
+          <h2>Kawa ziarnista</h2>
+          <div class="nav-zawartosc">
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'arabica_pojedyncze240px.png');" onmouseout="hover_przycisk(this, 'arabica240px.png');"><img src="grafika/arabica240px.png" alt="Arabica - ziarnista"></div>
+             <p>Arabica</p>
+            </div>
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'arabica-excelso_pojedyncze240px.png');" onmouseout="hover_przycisk(this, 'arabica-excelso240px.png');"><img src="grafika/arabica-excelso240px.png" alt="Arabica Excelso - ziarnista"></div>
+              <p>Arabica Excelso</p>
+            </div>
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'robusta_pojedyncze240px.png');" onmouseout="hover_przycisk(this, 'robusta240px.png');"><img src="grafika/robusta240px.png" alt="Robusta - ziarnista"></div>
+              <p>Robusta</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav-kategoria">
+          <h2>Kawa mielona</h2>
+          <div class="nav-zawartosc">
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'arabica_mielona3240px.png');" onmouseout="hover_przycisk(this, 'arabica_mielona1240px.png');"><img src="grafika/arabica_mielona1240px.png" alt="Arabica - mielona"></div>
+              <p>Arabica</p>
+            </div>
+            <div class="nav-przycisk">
+              <div onmouseover="this.children[0].setAttribute('src', 'grafika/arabica-excelso_mielona3240px.png')" onmouseout="this.children[0].setAttribute('src', 'grafika/arabica-excelso_mielona1240px.png')"><img src="grafika/arabica-excelso_mielona1240px.png" alt="Arabica Excelso - mielona"></div>
+              <p>Arabica Excelso</p>
+            </div>
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'robusta_mielona3240px.png');" onmouseout="hover_przycisk(this, 'robusta_mielona1240px.png');"><img src="grafika/robusta_mielona1240px.png" alt="Robusta - ziarnista"></div>
+              <p>Robusta</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav-kategoria">
+          <h2>Kawa w kapsułkach</h2>
+          <div class="nav-zawartosc">
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'flat-white_filiz240px.png');" onmouseout="hover_przycisk(this, 'flat-white240px.png');"><img src="grafika/flat-white240px.png" alt="Flat White"></div>
+              <p>Flat White</p>
+            </div>
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'cortado_filiz240px.png');" onmouseout="hover_przycisk(this, 'cortado240px.png');"><img src="grafika/cortado240px.png" alt="Cortado"></div>
+              <p>Cortado</p>
+            </div>
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'capuccino_filiz240px.png');" onmouseout="hover_przycisk(this, 'capuccino240px.png');"><img src="grafika/capuccino240px.png" alt="Capuccino"></div>
+              <p>Capuccino</p>
+            </div>
+            <div class="nav-przycisk">
+              <div onmouseover="hover_przycisk(this, 'latte-macchiato_filiz240px.png');" onmouseout="hover_przycisk(this, 'latte-macchiato240px.png');"><img src="grafika/latte-macchiato240px.png" alt="Latte Macchiato"></div>
+              <p>Latte Macchiato</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section>
+      <div class="kont">
+        <h2>O nas</h2>
+        <p>Ród Krauskich powstał kilka lat po chrzcie Polski. Wspólną cechą każdego pokolenia tego rodu było zamiłowanie do kawy - coś, co my, Michał i Kacper Krauscy, pragniemy kultywować na całym świecie. Przygotowujemy najlepszą kawę na świecie, ściśle podążając za procedurą przygotowaną przez naszych legendarnych przodków. Tak przyrządzony napój posiada ogromne wartości lecznicze, pozwalające nawet na renegerację straconych kończyn, leczenie nowotworów, reanimację, odmłodzenie, wzrost ilorazu inteligencji, natychmiastowy czas reakcji, itd.</p>
+      </div>
+    </section>
+    <footer>
+      <div class="kont">
+        <div>Przyciski do mediów społecznościowych</div>
+        <div>Strona zrobiona przez:<br><b>Kacpra</b><br>oraz<br><b>Michała</b><br>ze szkoły PZS2 w Wejherowie, klasa 3dT<br><br>02-04.2020</div>
+      </div>
+    </footer>
+  </body>
+</html>
