@@ -214,6 +214,19 @@ footer .kont div:nth-of-type(1){
   text-align: center;
 }
 
+footer .kont div:nth-of-type(1) p{
+  margin-bottom: 20px;
+}
+
+footer .kont div:nth-of-type(1) a{
+  position: relative;
+  margin: 10px;
+}
+
+footer .kont div:nth-of-type(1) a:hover{
+  animation: media-hover 1s linear 0s infinite forwards;
+}
+
 footer .kont div:nth-of-type(2){
   text-align: justify;
   line-height: 120%;
@@ -237,6 +250,14 @@ footer .kont div:nth-of-type(2){
 /*KEYFRAMES*/
 
 @keyframes obrot360{
-  0%  {rotate: 0deg;}
+  0%    {rotate: 0deg;}
   100%  {rotate: 360deg;}
+}
+
+@keyframes media-hover{
+  0%    {top: 0;}
+  25%   {top: 8px;}
+  50%   {top: 0;}
+  75%   {top: -8px;}
+  100%  {top: 0px;}
 }
