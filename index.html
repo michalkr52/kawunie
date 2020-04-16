@@ -18,7 +18,7 @@
       var hover_audio = new Audio("hover.mp3");
       
       function pusc_dzwiek(dzwiek){
-        if(!dzwiek.paused) dzwiek.pause();
+        if(video.currentTime > 0) dzwiek.pause();
         dzwiek.currentTime = 0;
         dzwiek.play();
       }
