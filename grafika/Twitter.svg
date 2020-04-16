@@ -1,1 +1,71 @@
-<svg id="Logo_FIXED" data-name="Logo — FIXED" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs><style>.cls-1{fill:none;}.cls-2{fill:#1da1f2;}</style></defs><title>Twitter_Logo_Blue</title><rect class="cls-1" width="400" height="400"/><path class="cls-2" d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Logo_FIXED"
+   data-name="Logo — FIXED"
+   viewBox="0 0 48 48"
+   version="1.1"
+   sodipodi:docname="twitter.svg"
+   width="48"
+   height="48"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Twitter_Logo_Blue</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="4.72"
+     inkscape:cx="27.540072"
+     inkscape:cy="34.337999"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Logo_FIXED" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;}.cls-2{fill:#1da1f2;}</style>
+  </defs>
+  <title
+     id="title6">Twitter_Logo_Blue</title>
+  <rect
+     class="cls-1"
+     width="48"
+     height="48"
+     id="rect8"
+     x="0"
+     y="0"
+     style="fill:none;stroke-width:0.12" />
+  <path
+     class="cls-2"
+     d="m 15.09504,48 c 18.11328,0 28.02048,-18.468633 28.02048,-34.484548 0,-0.52457 0,-1.046777 -0.0288,-1.566621 A 20.03712,24.6595 0 0 0 48,5.6752617 19.65696,24.191641 0 0 1 42.34368,7.5821434 9.88224,12.161982 0 0 0 46.67328,0.87852111 19.73568,24.288521 0 0 1 40.41984,3.8203645 9.85728,12.131264 0 0 0 23.63712,14.874134 27.95904,34.408934 0 0 1 3.3408,2.2112116 9.85536,12.128901 0 0 0 6.38976,18.390169 9.77472,12.029658 0 0 1 1.92,16.87317 c 0,0.04962 0,0.101606 0,0.15359 A 9.85152,12.124175 0 0 0 9.8208,28.907554 9.83232,12.100546 0 0 1 5.37408,29.115492 9.8592,12.133627 0 0 0 14.57472,37.532236 19.76064,24.319239 0 0 1 2.34432,42.730674 20.04672,24.671315 0 0 1 0,42.555817 27.88032,34.312055 0 0 0 15.09504,47.990548"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="fill:#1da1f2;stroke-width:0.21299809" />
+</svg>
