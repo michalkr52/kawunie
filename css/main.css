@@ -8,6 +8,10 @@
     #5e4c3f - kawa
 */
 
+b{
+  font-weight: bold;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -16,6 +20,7 @@ body{
   width: 100%;
   font-family: "Arial", sans-serif;
   background-color: #f2f4f3;
+  cursor: url(../grafika/kursor32.png), url(../grafika/kursor32.gif), url(../grafika/kursor32.cur), auto;
 }
 
 .kont{
@@ -77,10 +82,9 @@ nav{
   margin: 50px 0;
 }
 
-.nav-przycisk{
+.nav-kategoria{
   height: 120px;
   width: 80%;
-  background-color: #e2d1c1;
   margin: 60px auto;
   border: #9b2b31 solid 5px;
   border-radius: 15px;
@@ -88,16 +92,12 @@ nav{
   user-select: none;
 }
 
-.nav-przycisk:hover{
-  background-color: #bfa38d;
+.nav-kategoria:hover{
+  background-color: #e2d1c1;
   transition-duration: 0.3s;
 }
 
-.nav-przycisk img{
-  width: 120px;
-}
-
-.nav-przycisk h2{
+.nav-kategoria h2{
   display: inline-block;
   line-height: 120px;
   vertical-align: top;
@@ -108,10 +108,86 @@ nav{
   display: none;
 }
 
+.nav-kategoria:nth-of-type(3) .nav-przycisk{
+  width: 50%;
+  margin-bottom: 75px;
+}
+
+section{
+  margin-top: 60px;
+  height: 450px;
+  color: #f2f4f3;
+  vertical-align: middle;
+}
+
+section:nth-of-type(1){
+  background-image: url(../grafika/baner1.jpg);
+  background-position: 20% 50%;
+}
+
+section:nth-of-type(2){
+  background-image: url(../grafika/baner2.jpg);
+  background-position: 15% 30%;
+}
+
+section > div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+section h2{
+  margin-bottom: 25px;
+  font-size: 48pt;
+  color: #f2f4f3;
+}
+
+section p{
+  line-height: 16pt;
+}
+
+section ul{
+  margin-top: 15px;
+  list-style: circle;
+  line-height: 22pt;
+}
+
+section li{
+  margin-left: 30px;
+}
+
+.nav-przycisk{
+  float: left;
+  width: 33.3%;
+}
+
+.nav-przycisk div{
+  height: 150px;
+}
+
+.nav-przycisk img{
+  max-width: 200px;
+  max-height: 160px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-przycisk p{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+
 .nav-klikniety{
   height: 400px !important;
   transition-duration: 1s;
-  background-color: #bfa38d;
+  background-color: #e2d1c1;
+}
+
+.nav-kategoria:nth-of-type(3).nav-klikniety{
+  height: 680px !important;
 }
 
 footer{
@@ -130,6 +206,7 @@ footer .kont div{
   float: left;
   height: 100%;
   padding: 20px;
+  line-height: 18pt !important;
 }
 
 footer .kont div:nth-of-type(1){
