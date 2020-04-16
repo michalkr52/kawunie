@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -7,56 +9,113 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="48"
-   viewBox="0 -77 36.00015 36"
-   width="48"
    version="1.1"
-   id="svg6"
-   sodipodi:docname="Youtube.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
-  <metadata
-     id="metadata12">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs10" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     id="namedview8"
-     showgrid="false"
-     inkscape:zoom="3.9111844"
-     inkscape:cx="48.855697"
-     inkscape:cy="31.975718"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg6"
-     units="px" />
-  <path
-     d="m 35.258428,-71.366963 c -0.41501,-2.202641 -1.63092,-3.938862 -3.17285,-4.531992 -2.81718,-1.10112 -14.085859,-1.10112 -14.085859,-1.10112 0,0 -11.2683889,0 -14.0855692,1.05915 -1.5122699,0.59272 -2.7578399,2.371711 -3.1728499,4.573962 C 0,-67.343762 0,-59 0,-59 c 0,0 0,8.385722 0.7412999,12.366963 0.41528,2.202241 1.63092,3.938862 3.1731299,4.531982 2.8465503,1.10113 14.0855792,1.10113 14.0855792,1.10113 0,0 11.268389,0 14.085569,-1.05915 1.5422,-0.59274 2.75784,-2.329351 3.17312,-4.531602 0.7413,-4.023601 0.7413,-12.366963 0.7413,-12.366963 0,0 0.0297,-8.386122 -0.74157,-12.409323 z m 0,0"
-     id="path2"
-     inkscape:connector-curvature="0"
-     style="fill:#ff0000;stroke-width:0.0840298" />
-  <path
-     d="m 13.314825,-51.291735 9.3705,-7.70826 -9.3705,-7.70827 z m 0,0"
-     id="path4"
-     inkscape:connector-curvature="0"
-     style="fill:#ffffff;stroke-width:0.0840298" />
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 63.693534 41.460025"
+   xml:space="preserve"
+   sodipodi:docname="youtube (1).svg"
+   width="63.693535"
+   height="41.460026"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata39"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs37" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   id="namedview35"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="8.1908715"
+   inkscape:cx="50.544704"
+   inkscape:cy="17.527426"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<rect
+   style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.56750512;stroke-opacity:1"
+   id="rect846"
+   width="37.114487"
+   height="23.929077"
+   x="13.429584"
+   y="8.008152"
+   ry="10.810246" /><path
+   style="fill:#f61c0d;stroke-width:0.13251314"
+   d="M 50.465198,0 H 13.228338 C 5.9225154,0 0,5.4479986 0,12.168458 v 17.123095 c 0,6.720473 5.9225154,12.168471 13.228338,12.168471 h 37.23686 c 7.305821,0 13.228337,-5.447998 13.228337,-12.168471 V 12.168458 C 63.693535,5.4479986 57.771019,0 50.465198,0 Z m -8.946214,21.563113 -17.416907,7.641252 c -0.464096,0.203606 -1.000163,-0.107706 -1.000163,-0.580563 V 12.863667 c 0,-0.479647 0.550162,-0.790522 1.015221,-0.573706 l 17.416907,8.118882 c 0.517837,0.241357 0.508856,0.924488 -0.01512,1.15427 z"
+   id="path2"
+   inkscape:connector-curvature="0" />
+<g
+   id="g4"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g6"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g8"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g10"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g12"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g14"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g16"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g18"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g20"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g22"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g24"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g26"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g28"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g30"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
+<g
+   id="g32"
+   transform="translate(-0.21486109,-348.70106)">
+</g>
 </svg>
