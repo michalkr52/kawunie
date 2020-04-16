@@ -14,9 +14,18 @@
     <!-- skrypt pobiera zdjęcia w kategoriach przy załadowaniu, które normalnie zaczęły by się pobierać przy onmouseover -->
     <script type="text/javascript" src="ladowanie-zdj.js"></script> 
     <script>
+      var rozwin_audio = new Audio('rozwin.mp3');
+      
+      function pusc_dzwiek(dzwiek){
+        if(!dzwiek.paused) dzwiek.pause();
+        dzwiek.currentTime = 0;
+        dzwiek.play();
+      }
+      
       $(document).ready(function(){
         $(".nav-kategoria").click(function(){
           var element = $(this);
+          pusc_dzwiek(rozwin_audio);
           if(element.hasClass("nav-klikniety")){
             element.children(".nav-zawartosc").fadeToggle(200);
             setTimeout(function(){
@@ -31,20 +40,6 @@
         });
       });
     </script>
-    <!--
-    Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com> & Marck Fogel, with Reserved Font Name "Marck Script". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
-    -->
-    
-    <!--
-    Paleta kolorów:
-    #141210 - lukrecja
-    #9b2b31 - rubinowy
-    #a32323 - czerowny w logu
-    #f2f4f3 - bialawy
-    #d8c1ab - jasna kawa
-    #5e4c3f - kawa
-    https://coolors.co/141210-9b2b41-f2f4f3-d8c1ab-5e4c3f - inne ewentualne odcienie
-    -->
   </head>
   <body>
     <header>
