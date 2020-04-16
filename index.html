@@ -60,15 +60,15 @@
           var zawartosc = element.parent().parent().children(".main-kat-zawartosc");
           pusc_dzwiek(rozwin_audio);
           if(zawartosc.hasClass("main-kat-klikniety")){
-            zawartosc.fadeToggle(200);
+            element.children().text("Rozwiń");
+            zawartosc.slideToggle(400);
             setTimeout(function(){
               zawartosc.toggleClass("main-kat-klikniety");
               element.toggleClass("main-kat-rozwin-klikniety");
-            }, 200);
+            }, 400);
           }else{
-            setTimeout(function(){
-              zawartosc.fadeToggle(200);
-            }, 200);
+            element.children().text("Zwiń");
+            zawartosc.slideToggle(400);
             zawartosc.toggleClass("main-kat-klikniety");
             element.toggleClass("main-kat-rozwin-klikniety");
           }
@@ -131,7 +131,7 @@
               <p>Arabica Excelso</p>
             </div>
             <div class="nav-przycisk">
-              <div onmouseenter="hover_przycisk(this, 'robusta_mielona3240px.png');" onmouseleave="hover_przycisk(this, 'robusta_mielona1240px.png');"><img src="grafika/robusta_mielona1240px.png" alt="Robusta - ziarnista"></div>
+              <div onmouseenter="hover_przycisk(this, 'robusta_mielona3240px.png');" onmouseleave="hover_przycisk(this, 'robusta_mielona1240px.png');"><img src="grafika/robusta_mielona1240px.png" alt="Robusta - mielona"></div>
               <p>Robusta</p>
             </div>
           </div>
@@ -174,7 +174,33 @@
           </div>
         </div>
         <div class="main-kat-zawartosc">
-          
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Arabica</h3>
+              <h4>(ziarnista)</h4>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Arabica Excelso</h3>
+              <h4>(ziarnista)</h4>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Robusta</h3>
+              <h4>(ziarnista)</h4>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -187,20 +213,77 @@
           </div>
         </div>
         <div class="main-kat-zawartosc">
-          <div class="main-kat-karta"></div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Arabica</h3>
+              <h4>(mielona)</h4>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Arabica Excelso</h3>
+              <h4>(mielona)</h4>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Robusta</h3>
+              <h4>(mielona)</h4>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section class="main-kat">
       <div class="kont">
         <div class="main-kat-naglowek">
-          <h2>Kawa w kapsulkach</h2>
+          <h2>Kawa w kapsułkach</h2>
           <div class="main-kat-rozwin">
             <div>Rozwiń</div>
           </div>
         </div>
         <div class="main-kat-zawartosc">
-          
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Flat White</h3>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Cortado</h3>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Capuccino</h3>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
+          <div class="main-kat-karta">
+            <div class="main-kat-karta-naglowek">
+              <h3>Latte Macchiato</h3>
+            </div>
+            <div class="main-kat-karta-zawartosc">
+            
+            </div>
+          </div>
         </div>
       </div>
     </section>

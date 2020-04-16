@@ -211,8 +211,8 @@ nav{
 
 .main-kat h2{
   flex-grow: 3;
-  flex-basis: 400px;
   font-size: 48pt;
+  flex-basis: 400px;
   margin-left: 30px;
   text-decoration: underline;
   text-decoration-color: #9b2b31;
@@ -221,6 +221,7 @@ nav{
 .main-kat-rozwin{
   display: flex;
   justify-content: center;
+  flex-basis: 100px;
   flex-grow: 1;
   font-size: 20pt;
   color: #9b2b31;
@@ -249,6 +250,21 @@ nav{
 .main-kat-rozwin-klikniety{
   background-color: #9b2b31;
   color: #f2f4f3;
+}
+
+.main-kat-karta{
+  height: 700px;
+  padding: 60px;
+}
+
+.main-kat-karta h3{
+  font-family: "MarckScript", cursive;
+  font-size: 48pt;
+}
+
+.main-kat-karta h4{
+  font-family: "MarckScript", cursive;
+  font-size: 24pt;
 }
 
 footer{
