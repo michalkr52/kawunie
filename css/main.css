@@ -8,6 +8,10 @@
     #5e4c3f - kawa
 */
 
+a{
+  cursor: url(../grafika/kursor32.png), url(../grafika/kursor32.gif), url(../grafika/kursor32.cur), pointer;
+}
+
 b{
   font-weight: bold;
 }
