@@ -312,13 +312,31 @@ nav{
   width: 30px;
   top: 70px;
   left: 250px;
-  animation: ziarnoX 3s ease-in-out 0s infinite forwards;
+  animation: ziarnoX 4s ease-in-out 0s infinite forwards;
 }
 
 .anim-kont img{
   position: absolute;
   width: 100%;
-  animation: ziarnoY 3s ease-in-out 0s infinite forwards;
+  animation: ziarnoY 4s ease-in-out 0s infinite forwards;
+}
+
+.main-kat-mielona-anim{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+
+.main-kat-mielona-anim img:nth-of-type(1){
+  position: absolute;
+  animation: mielona1 5s ease-in 0s infinite forwards;
+}
+
+.main-kat-mielona-anim img:nth-of-type(3){
+  position: absolute;
+  animation: mielona2 5s ease-in 0s infinite forwards;
 }
 
 footer{
@@ -406,4 +424,22 @@ footer .kont div:nth-of-type(2){
   50%   {bottom: 25px; z-index: 10;}
   75%   {bottom: 50px; z-index: 0; transform: scale(0.6);}
   100%  {bottom: 25px; z-index: 10;}
+}
+
+@keyframes mielona1{
+  0%    {left: 0; opacity: 0;}
+  5%    {left: 0; opacity: 1;}
+  10%   {left: 0; opacity: 1;}
+  30%   {left: 180px; opacity: 1;}
+  35%   {left: 280px; opacity: 0;}
+  100%  {opacity: 0;}
+}
+
+@keyframes mielona2{
+  0%    {right: 280px; opacity: 0;}
+  55%   {right: 280px; opacity: 0;}
+  80%   {right: 0; opacity: 1;}
+  90%   {right: 0; opacity: 1;}
+  95%   {right: 0; opacity: 0;}
+  100%  {right: 0; opacity: 0;}
 }
