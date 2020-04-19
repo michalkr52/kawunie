@@ -256,9 +256,6 @@ nav{
   border-radius: 15px;
 }
 
-.main-kat-klikniety{
-}
-
 .main-kat-rozwin > div{
   align-self: center;
 }
@@ -282,6 +279,46 @@ nav{
 .main-kat-karta h4{
   font-family: "MarckScript", cursive;
   font-size: 24pt;
+}
+
+.main-kat-karta-zawartosc{
+  position: relative;
+  text-align: justify;
+  font-size: 14pt;
+  line-height: 18pt;
+}
+
+.main-kat-karta-zawartosc p:nth-of-type(1):first-letter{
+  font-family: "MarckScript", serif;
+  font-style: oblique;
+  font-size: 40pt;
+  float: left;
+  margin-right: 15px;
+}
+
+.main-kat-karta-zawartosc > div:nth-of-type(1){
+  margin: 40px 0;
+}
+
+.main-kat-karta-zawartosc > div:nth-of-type(1) > img{
+  position: relative;
+  display: block; 
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.anim-kont{
+  position: absolute;
+  width: 30px;
+  top: 70px;
+  left: 250px;
+  animation: ziarnoX 3s ease-in-out 0s infinite forwards;
+}
+
+.anim-kont img{
+  position: absolute;
+  width: 100%;
+  animation: ziarnoY 3s ease-in-out 0s infinite forwards;
 }
 
 footer{
@@ -355,4 +392,18 @@ footer .kont div:nth-of-type(2){
   50%   {top: 0;}
   75%   {top: -8px;}
   100%  {top: 0px;}
+}
+
+@keyframes ziarnoX{
+  0%    {left: 250px;}
+  50%   {left: 590px;}
+  100%  {left: 250px;}
+}
+
+@keyframes ziarnoY{
+  0%    {bottom: 25px; z-index: 10;}
+  25%   {bottom: 0px; z-index: 20; transform: scale(1.5);}
+  50%   {bottom: 25px; z-index: 10;}
+  75%   {bottom: 50px; z-index: 0; transform: scale(0.6);}
+  100%  {bottom: 25px; z-index: 10;}
 }
