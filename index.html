@@ -16,6 +16,7 @@
     <script>
       var rozwin_audio = new Audio("rozwin.mp3");
       var hover_audio = new Audio("hover.mp3");
+      var do_gory = true;
       
       function pusc_dzwiek(dzwiek){
         if(dzwiek.currentTime > 0) dzwiek.pause();
@@ -23,6 +24,18 @@
         setTimeout(function(){
           dzwiek.play();
         }, 10);
+      }
+      
+      function pokazGora(){
+        if(do_gory){
+          if(window.scrollY >= 800){
+            do_gory = false;
+            $(".do-gory").fadeTo(500, 1, function(){do_gory = true;});
+          }else{
+            do_gory = false;
+            $(".do-gory").fadeTo(500, 0, function(){do_gory = true;});
+          }
+        }
       }
       
       function hover_przycisk(element, zdjecie){
@@ -76,7 +89,7 @@
       });
     </script>
   </head>
-  <body>
+  <body onscroll="pokazGora()">
     <img class="do-gory" src="grafika/Strzalka_inkscape.svg" onclick="doGory(this);">
     <header>
       <div class="kont">
