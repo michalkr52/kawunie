@@ -25,6 +25,7 @@ body{
   font-family: "Arial", sans-serif;
   background-color: #f2f4f3;
   cursor: url(../grafika/kursor32.png), url(../grafika/kursor32.gif), url(../grafika/kursor32.cur), auto;
+  overflow-x: hidden;
 }
 
 .kont{
