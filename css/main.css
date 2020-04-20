@@ -62,6 +62,13 @@ h2{
   font-size: 48px;
 }
 
+.slide-prawy{
+  position: relative;
+  transition: 0.3s cubic-bezier(0,.99,.48,.93);
+  visibility: hidden;
+  right: -6000px;
+}
+
 header h1{
   display: block;
   width: 750px;
