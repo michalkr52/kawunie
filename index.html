@@ -40,12 +40,12 @@
           if(window.scrollY >= 800){
             do_gory = false;
             $(".do-gory").css("display", "initial");
-            $(".do-gory").fadeTo(500, 1, function(){
+            $(".do-gory").fadeTo(300, 1, function(){
               do_gory = true;
             });
           }else if($(".do-gory").css("display") != "none"){
             do_gory = false;
-            $(".do-gory").fadeTo(500, 0, function(){
+            $(".do-gory").fadeTo(300, 0, function(){
               do_gory = true; 
               $(".do-gory").css("display", "none");
             });
