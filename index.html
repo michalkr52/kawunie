@@ -11,7 +11,11 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="czcionka/czcionka.css">
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
-    <!-- skrypt pobiera zdjęcia w kategoriach przy załadowaniu, które normalnie zaczęły by się pobierać przy onmouseenter -->
+    <!-- 
+      skrypt pobiera zdjęcia w skrótach przy załadowaniu strony - normalnie zaczęły by się pobierać przy onmouseenter, a więc nie byłyby pokazane od razu
+      robi to poprzez tworzenie zapytań HTTP GET, które żądają grafik
+      przy otwarciu strony z lokalnej ścieżki zamiast z lokalizacji sieciowej, w konsoli będą pojawiać się błędy odnośnie pobierania zdjęć - jest to spowodowane użyciem file:/// zamiast http:// w URI
+    -->
     <script type="text/javascript" src="ladowanie-zdj.js"></script> 
     <script>
       //załadowanie plików audio używanych na stronie
