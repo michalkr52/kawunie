@@ -414,8 +414,8 @@ footer .kont div:nth-of-type(2){
 /*KEYFRAMES*/
 
 @keyframes obrot360{
-  0%    {rotate: 0deg;}
-  100%  {rotate: 360deg;}
+  0%    {transform: rotate(0deg);}
+  100%  {transform: rotate(360deg);}
 }
 
 @keyframes media-hover{
